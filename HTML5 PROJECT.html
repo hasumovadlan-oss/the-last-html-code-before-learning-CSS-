@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Моя визитка</title>
+    </head>
+
+    <body style="background-color: rgb(91, 133, 107);">
+        <h1>Мой профиль</h1>
+        <p>
+            <strong>Всем привет. Я Адлан Хашумов. С недавнего времени начал писать код на HTML5. Сейчас потихоньку перехожу на изучение CSS.
+            Этот проект создан с целью самопроверки, а точнее для того, чтобы проверить свои навыки в написании своего мини проекта (документа).</strong>
+        </p>
+
+        <h2>Плавное начало</h2>
+        <div>
+            <em>Далее хотелось бы перечислить то, что я уже изучил и хорошо (как мне кажется) закрпеил на должном уровне. 
+            К таким штукам относятся теги, атрибуты, элементы и прочее</em>
+        </div>
+
+        <h3>Список изученных тегов, которые я все еще помню</h3>
+
+        <ol>
+            <li>Главный тег HTML</li>
+            <li>Тег ссылки <mark>a</mark></li>
+            <li>Тег table для создания таблиц</li>
+        </ol>
+
+        <figure>
+            <img src="{7FD47CC3-B5B2-4295-8045-92C327ACB994}.png" alt="my_project" width="550" height="450">
+            <figcaption>Вот небольшая вставка из моего предыдущего проекта с github</figcaption>
+        </figure>
+    
+        <div>
+            Также стоит отметить, что самообучение проходило на платформе <a href="https://metanit.com/" target="_blank">Metanit.com</a>. Сайт оказался очень эффективным
+            в плане подачи информации и практической части. Обучению предоставлял в день в среднем 2 часа свободного времени. Результат меня приятно удивил. 
+            В целом, базу выучить с помощью этого источника можно без проблем.
+        </div>
+
+        <h3>Языки программирования и их определения</h3>
+        
+        <dl>
+            <dt>Язык программирования Java</dt>
+            <dd><span style="color: brown;"> Это строго типизированный объектно-ориентированный язык программирования общего назначения,
+                разработанный компанией Sun Microsystems (Oracle)</span>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt>Язык Ruby</dt>
+            <dd><span style="color: chocolate;">Это интерактивный язык программирования, который оживляет веб страницы, делая их динамичными и функциональными</span></dd>
+        </dl>
+
+        <dl>
+            <dt>Язык программирования Ruby</dt>
+            <dd><span style="color: cyan;">Это высокоуровневый, динамическйи, объектно-ориентированный язык программмирования общего назначения, созданный в японии Юкихиро Мацумото.</span></dd>
+        </dl>
+
+        <h3>Языки программирования которые мне нравятся</h3>
+        <form method="post" action="#">
+            <label>
+                <input type="radio" name="programm_language" value="JavaScript">JavaScript<br>
+            </label>
+            
+            <label>
+                <input type="radio" name="programm_language" value="C++">C++<br>
+            </label>
+
+            <label>
+                <input type="radio" name="programm_language" value="Java">Java<br>
+            </label>
+        </form>
+
+        <h3>Таблицы с разнличным содержанием</h3>
+        <table border="4">
+            <caption>Условная таблица расписания дня</caption>
+
+            <thead>
+                <tr>
+                    <th>Время</th>
+                    <th>Действие</th>
+                    <th>Результат действия</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>9:00</td>
+                    <td>Подъем и начало дня</td>
+                    <td>Съеденый завтрак</td>
+                </tr>
+
+                <tr>
+                    <td>12:00</td>
+                    <td>Время намаза (обед)</td>
+                    <td>Сделан дневной намаз</td>
+                </tr>
+
+                <tr>
+                    <td>18:00</td>
+                    <td>Время обучения HTML5</td>
+                    <td>Пройденная глава на Metanit</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <th colspan="3">Вся таблица</th>
+            </tfoot>
+        </table>
+
+        <h3>Какие аспекты изучения языка мне эмпанируют</h3>
+
+        <form method="get" action="#">
+            <label>
+                <input type="checkbox" name="fav">Изучение нового<br>
+            </label>
+
+            <label>
+                <input type="checkbox" name="fav">Ощущение прогресса в жизни<br>
+            </label>
+
+            <label>
+                <input type="checkbox" name="fav">Приобретение своременных навыков<br>
+            </label>
+        </form>
+
+        <h3>Поле для регистрации пользователя</h3>
+        
+        <form method="post" action="#">
+            <label>Заполните данные для регистрации</label>
+            <p>
+                <input type="text" name="login" placeholder="Логин" minlength="8" maxlength="10">
+            </p>
+            
+            <p>
+                <input type="password" name="password" placeholder="Пароль" minlength="8" maxlength="20">
+            </p>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </body>
+</html>
